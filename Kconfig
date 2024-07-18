@@ -1,0 +1,5 @@
+config UNITY_TEST
+    bool "Enable Unity test framework"
+    default n
+    help
+        Unity Test Project
