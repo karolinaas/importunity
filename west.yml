@@ -1,0 +1,6 @@
+manifest:
+  projects:
+    - name: unity
+    description: Unity Test framework
+    url: https://github.com/ThrowTheSwitch/Unity.git
+    revision: v2.6.0
