@@ -1,5 +1,5 @@
 config UNITY_TEST
-    bool "Enable Unity test framework"
+    bool "Enable Unity Test framework"
     default n
     help
-        Unity Test Project
+      Enable this option to use the Unity Test framework in your project.
