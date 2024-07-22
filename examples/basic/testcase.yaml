@@ -1,0 +1,4 @@
+tests:
+  basic.test_assert:
+    build_only: false
+    tags: unity test_assert
