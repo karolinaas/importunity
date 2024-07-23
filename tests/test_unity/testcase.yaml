@@ -1,7 +1,7 @@
 tests:
   test_unity.test_unity_arrays:
     build_only: false
-    # extra_args: -DTEST_UNITY_ARRAYS=TRUE
+    extra_args: TEST_UNITY_ARRAYS=TRUE
     tags: unity test_unity test_unity_arrays
 
   test_unity.test_unity_core:

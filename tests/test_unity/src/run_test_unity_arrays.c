@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "run_test.h"
+#include "run_test_unity_arrays.h"
 #include "test_unity_arrays.c"
 // #include "test_unity_core.c"
 // #include "test_unity_doubles.c"
@@ -22,10 +22,6 @@ void run_test_unity_arrays(void) {
     RUN_TEST(testInt64ArrayWithinDeltaAndMessage);
     RUN_TEST(testInt64ArrayNotWithinDelta);
 }
-
-// void run_test_unity_core(void) {
-//     RUN_TEST(testUnitySizeInitializationReminder);
-// }
 
 // void run_test_unity_doubles(void) {
 //     RUN_TEST(testDoublesWithinDelta);

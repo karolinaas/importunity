@@ -5,7 +5,7 @@
  */
 
 #include "unity.h"
-#include "run_test.h"
+#include "run_test_unity_arrays.h"
 
 // void setUp(void) {
 
@@ -15,9 +15,18 @@
 
 // }
 
-int main(void) {
+void testFail(void) {
+    TEST_ASSERT_TRUE(0);
+}
+
+int main(void)
+{
     UNITY_BEGIN();
-    // run_test_unity_arrays();
+#ifdef TEST_UNITY_ARRAYS
+     run_test_unity_arrays();
+#else
+    RUN_TEST(testFail);
+#endif
     // run_test_unity_core();
     // run_test_unity_doubles();
     // run_test_unity_floats();
