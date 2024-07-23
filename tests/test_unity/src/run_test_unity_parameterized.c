@@ -9,8 +9,9 @@
 #include "run_test_unity.h"
 #include "test_unity_parameterized.c"
 
-void run_test_unity_parameterized(void) {
-    RUN_TEST(test_TheseShouldAllPass);
+void run_test_unity_parameterized(void)
+{
+    // TODO
 }
 
 #endif

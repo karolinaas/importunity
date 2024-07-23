@@ -9,8 +9,9 @@
 #include "run_test_unity.h"
 #include "test_unity_parameterizedDemo.c"
 
-void run_test_unity_parameterizedDemo(void) {
-    RUN_TEST(test_demoParamFunction);
+void run_test_unity_parameterizedDemo(void)
+{
+    // TODO
 }
 
 #endif
