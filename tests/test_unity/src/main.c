@@ -7,10 +7,6 @@
 #include "unity.h"
 #include "run_test_unity.h"
 
-void testFail(void) {
-    TEST_ASSERT_TRUE(0);
-}
-
 int main(void)
 {
     UNITY_BEGIN();
