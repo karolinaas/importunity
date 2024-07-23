@@ -5,7 +5,7 @@
  */
 
 void run_test_unity_arrays(void);
-
+void run_test_unity_core(void);
 // void run_test_unity_doubles(void);
 // void run_test_unity_floats(void);
 // void run_test_unity_integers(void);

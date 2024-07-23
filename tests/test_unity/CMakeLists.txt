@@ -7,6 +7,8 @@ project(test_unity)
 
 if(TEST_UNITY_ARRAYS)
     zephyr_compile_definitions(TEST_UNITY_ARRAYS)
+elseif(TEST_UNITY_CORE)
+    zephyr_compile_definitions(TEST_UNITY_CORE)
 endif()
 
 zephyr_include_directories(${CMAKE_CURRENT_LIST_DIR}/../../unity/test/tests)

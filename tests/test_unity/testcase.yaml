@@ -6,7 +6,7 @@ tests:
 
   test_unity.test_unity_core:
     build_only: false
-    # extra_args: -DTEST_UNITY_CORE=TRUE
+    extra_args: TEST_UNITY_CORE=TRUE
     tags: unity test_unity test_unity_core
 
   test_unity.test_unity_doubles:

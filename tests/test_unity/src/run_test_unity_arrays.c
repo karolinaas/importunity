@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "run_test_unity_arrays.h"
+#include "run_test_unity.h"
 #include "test_unity_arrays.c"
 // #include "test_unity_core.c"
 // #include "test_unity_doubles.c"

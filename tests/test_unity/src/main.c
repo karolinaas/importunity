@@ -5,15 +5,7 @@
  */
 
 #include "unity.h"
-#include "run_test_unity_arrays.h"
-
-// void setUp(void) {
-
-// }
-
-// void tearDown(void) {
-
-// }
+#include "run_test_unity.h"
 
 void testFail(void) {
     TEST_ASSERT_TRUE(0);
@@ -23,9 +15,9 @@ int main(void)
 {
     UNITY_BEGIN();
 #ifdef TEST_UNITY_ARRAYS
-     run_test_unity_arrays();
-#else
-    RUN_TEST(testFail);
+    run_test_unity_arrays();
+#elif TEST_UNITY_CORE
+    run_test_unity_core();
 #endif
     // run_test_unity_core();
     // run_test_unity_doubles();
