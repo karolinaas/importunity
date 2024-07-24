@@ -1,50 +1,50 @@
 tests:
-  test_unity.test_unity_arrays:
+  test_unity.arrays:
     build_only: false
-    extra_args: -DTEST_UNITY_ARRAYS=TRUE
+    extra_args: TEST_UNITY_ARRAYS=TRUE
     tags: unity test_unity test_unity_arrays
 
-  test_unity.test_unity_core:
+  test_unity.core:
     build_only: false
-    extra_args: -DTEST_UNITY_CORE=TRUE
+    extra_args: TEST_UNITY_CORE=TRUE
     tags: unity test_unity test_unity_core
 
-  test_unity.test_unity_doubles:
+  test_unity.doubles:
     build_only: false
-    extra_args: -DTEST_UNITY_DOUBLES=TRUE
+    extra_args: TEST_UNITY_DOUBLES=TRUE
     tags: unity test_unity test_unity_doubles
 
-  test_unity.test_unity_floats:
+  test_unity.floats:
     build_only: false
-    extra_args: -DTEST_UNITY_FLOATS=TRUE
+    extra_args: TEST_UNITY_FLOATS=TRUE
     tags: unity test_unity test_unity_floats
 
-  test_unity.test_unity_integers:
+  test_unity.integers:
     build_only: false
-    extra_args: -DTEST_UNITY_INTEGERS=TRUE
+    extra_args: TEST_UNITY_INTEGERS=TRUE
     tags: unity test_unity test_unity_integers
 
-  test_unity.test_unity_integers_64:
+  test_unity.integers_64:
     build_only: false
-    extra_args: -DTEST_UNITY_INTEGERS_64=TRUE
+    extra_args: TEST_UNITY_INTEGERS_64=TRUE
     tags: unity test_unity test_unity_integers_64
 
-  test_unity.test_unity_memory:
+  test_unity.memory:
     build_only: false
-    extra_args: -DTEST_UNITY_MEMORY=TRUE
+    extra_args: TEST_UNITY_MEMORY=TRUE
     tags: unity test_unity test_unity_memory
 
-  test_unity.test_unity_parameterized:
+  test_unity.parameterized:
     build_only: false
-    extra_args: -DTEST_UNITY_PARAMETERIZED=TRUE
+    extra_args: TEST_UNITY_PARAMETERIZED=TRUE
     tags: unity test_unity test_unity_parameterized
 
-  test_unity.test_unity_parameterizedDemo:
+  test_unity.parameterizedDemo:
     build_only: false
-    extra_args: -DTEST_UNITY_PARAMETERIZEDDEMO=TRUE
+    extra_args: TEST_UNITY_PARAMETERIZEDDEMO=TRUE
     tags: unity test_unity test_unity_parametereizedDemo
 
-  test_unity.test_unity_strings:
+  test_unity.strings:
     build_only: false
-    extra_args: -DTEST_UNITY_STRINGS=TRUE
+    extra_args: TEST_UNITY_STRINGS=TRUE
     tags: unity test_unity test_unity_strings
