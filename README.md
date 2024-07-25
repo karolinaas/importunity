@@ -48,7 +48,7 @@ You can run them using Twister.
 
 ## General information
 
-The name Importunity was chosen because I was importunate to my coworker about implementing a Zephyr module. Pun intentended. ;)
+The name Importunity was chosen because I was importunate to my coworker about implementing a Zephyr module. Pun intended. ;)
 
 ### Unity version
 
