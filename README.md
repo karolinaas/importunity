@@ -24,6 +24,21 @@ manifest:
 Then you simply have to run `west update` in your west workspace and you're ready to start testing.
 
 To create and run a test using Unity you have to create a test [application](https://docs.zephyrproject.org/latest/develop/application/index.html).
+A simple test application file structure could look like this:
+
+```
+<test_app>
+├── CMakeLists.txt
+├── prj.conf
+├── testcase.yaml
+└── src
+    └── main.c
+```
+To use Unity you must first enable it in your `prj.conf` file with this line:
+
+```
+CONFIG_UNITY_TEST=y
+```
 
 Then you can follow the [usual steps to create a Unity test file](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityGettingStartedGuide.md#how-to-create-a-test-file).
 
